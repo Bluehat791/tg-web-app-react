@@ -38,8 +38,8 @@ import Fanta_033 from "../images/Fanta-033.jpeg";
 import Fanta_05 from "../images/Fanta-05.jpeg";
 import Cheese_sauce from "../images/Cheese sauce.jpeg";
 import Barbecue_sauce from "../images/Barbecue sauce.jpeg";
-import Tomato_sauce from "../images/Tomato sauce.jpeg";
-import Teriaci from "../images/Teriaci.jpeg";
+import Teriaci from "../images/Tomato sauce.jpeg";
+import Tomato_sauce from "../images/Teriaci.jpeg";
 
 
 
