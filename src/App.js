@@ -42,7 +42,8 @@ function App() {
   };
 
   const onCheckout = () => {
-    tele.MainButton.text = "Оплатить";
+    const totalPrice = cartItems.reduce((a, c) => a + c.price * c.quantity, 0);
+    tele.MainButton.text = "Оплатить" + totalPrice;
     tele.MainButton.show();
   };
 
