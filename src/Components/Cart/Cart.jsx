@@ -8,7 +8,7 @@ function Cart({ cartItems, onCheckout }) {
     <div className="cart__container">
       <br /> <span className=""> Сумма заказа: ₽{totalPrice.toFixed(2)}</span>
       <Button
-        title={`${cartItems.length === 0 ? "Order !" : "Checkout"} `}
+        title={`${cartItems.length === 0 ? "Пусто!" : "Заказ"} `}
         type={"checkout"}
         disable={cartItems.length === 0 ? true : false}
         onClick={onCheckout}

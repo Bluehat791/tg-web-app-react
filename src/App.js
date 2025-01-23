@@ -59,8 +59,6 @@ function App() {
             <Card food={food} key={food.id} onAdd={onAdd} onRemove={onRemove} />
           );
         })}
-      </div>
-      <div>
         <Routes>
           <Route path= {'form'} element={<Form />}/>
         </Routes>
