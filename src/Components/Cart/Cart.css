@@ -1,7 +1,12 @@
 .cart__container {
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 12px;
-  margin: 5px 15px;
+  margin: 5% 0;
+  background-color: #243e57;
+  height: 50px;
+  position: sticky;
+  z-index:10;
 }
