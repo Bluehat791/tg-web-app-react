@@ -43,7 +43,7 @@ function App() {
 
   const onCheckout = () => {
     const totalPrice = cartItems.reduce((a, c) => a + c.price * c.quantity, 0);
-    tele.MainButton.text = "Оплатить" + totalPrice;
+    tele.MainButton.text = "Оплатить" + "₽" + totalPrice.toFixed(2);
     tele.MainButton.show();
   };
 
