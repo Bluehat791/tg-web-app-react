@@ -3,6 +3,8 @@ import "./App.css";
 import Card from "./Components/Card/Card";
 import Cart from "./Components/Cart/Cart";
 import Form from "./Components/Form/Form";
+import {Route, Routes} from 'react-router-dom';
+
 const { getData } = require("./db/db");
 const foods = getData();
 
@@ -57,6 +59,11 @@ function App() {
             <Card food={food} key={food.id} onAdd={onAdd} onRemove={onRemove} />
           );
         })}
+      </div>
+      <div>
+        <Routes>
+          <Route path= {'form'} element={<Form />}/>
+        </Routes>
       </div>
     </>
   );
